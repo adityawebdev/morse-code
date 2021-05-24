@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    /> -->
+
+    <script type="text/javascript" src="app2.js" defer></script>
+
+    <title>Morse Decoder</title>
+  </head>
+  <body>
+    <style>
+      * {
+        color: rgb(255, 255, 255);
+        font-family: cursive;
+      }
+      body {
+        background-color: rgb(0, 0, 0);
+      }
+      .btn {
+        background: black;
+        outline: none;
+        font-size: 2rem;
+      }
+      #code-input {
+        color: black;
+      }
+      #code-input-2 {
+        color: black;
+      }
+      #result {
+        font-size: 2rem;
+      }
+    </style>
+    <h1>Morse Decoder</h1>
+
+    <div class="decoder">
+      <form id="form-2">
+        <input type="text" id="code-input-2" required />
+        <p>Give space after every letter an use . and - only</p>
+        <button class="btn" id="submit" type="submit">Decode</button>
+
+        <!-- <input class="btn" type="button" value="." onclick="dot('.')" />
+        <input class="btn" type="button" value="-" onclick="hyphen('-')" /> -->
+      </form>
+      <p id="result"></p>
+    </div>
+    <a href="index.html">Go to Encoder</a>
+    <!--? Bootsrap JS-->
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script> -->
+  </body>
+</html>
